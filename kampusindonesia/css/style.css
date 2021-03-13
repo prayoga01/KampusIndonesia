@@ -1,0 +1,206 @@
+/* .nav-link:hover::after{
+    content: '';
+    display: block;
+    border-bottom: 3px solid blue;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+} */
+.navbar-nav {
+    font-family: 'Poppins';
+    font-weight: 120; 
+}
+
+
+.info-panel {
+    box-shadow: 0 3px 20px rgba(0,0,0,0.5);
+    border-radius: 12px;
+    margin-top: -10px;
+    background-color: white;
+    padding: 30px; 
+}
+
+.info-panel img {
+    width: 85px;
+    height: 85px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.info-panel p {
+    font-family: 'Poppins';
+    font-size: 16px;
+    color: #000000;
+    margin-top: -5PX;
+    font-weight: 200;
+}
+
+
+.jumbotron {
+    background-image: linear-gradient(to right, #1ea6ec, #2c92fb);
+    background-size: cover;
+    height: 540px;
+    /* position: relative; */
+}
+.jumbotron .img{
+    position: relative;
+    z-index: 100;
+}
+
+.jumbotron .display-4 h1{
+    font-family: 'Poppins';
+    
+}
+
+.jumbotron .display-4 span {
+    color: #ffff;
+    font-weight: 500;  
+}
+
+/* rekomendasi */
+.rekomendasi{
+    margin-top: 120px;
+
+}
+
+/* Responsive Cards Start */
+.card-container{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 30px;
+}
+
+.card-container .card{
+    position: relative;
+    max-width: 330px;
+    height: 215px;
+    background: linear-gradient(to right, #1ea6ec, #2c92fb);
+    margin: 50px 20px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 7px 7px 3px rgba(0, 0, 0, 0.212);
+    transition: 0.5s ease-in-out;
+}
+
+.card-container .card:hover{
+    height: 420px;
+}
+
+.card-container .card .imgBx{
+    color: rgb(54, 54, 54);
+    background: #ffff;
+    position: relative;
+    width: 260px;
+    height: 260px;
+    top: -60px;
+    left: 20px;
+    z-index: 10;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.185);
+    border-radius: 4px;
+}
+
+.card-container .card .imgBx h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.card-container .card .imgBx img{
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+.card-container .card .content{
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 5px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+    line-height: 29px;
+}
+
+.card-container .card .content p{
+    padding: 12px;
+}
+
+.card-container .card:hover .content{
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40px;
+    transition-delay: 0.3s;
+}
+
+.footer a{
+    color: #ffff;
+}
+
+/* modal */
+.social_login{
+    text-align: center;
+}
+.socil_log{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    justify-content: center;
+}
+
+.socil_log li {
+    margin: 0 10px;
+}
+.socil_log li i {
+    width: 50px;
+}
+.social_login p{
+    color: #8c8c8c;
+}
+
+.singin_modal .nav-tabs .nav-link {
+    background-color: #e5e5e5;
+    border-radius: 0;
+    font-weight: 600;
+    border-color: #ffff
+}
+
+.singin_modal .nav-tabs .nav-link.active {
+    background-color: #ffff;
+
+ }
+
+.singin_modal .nav-tabs .nav-item {
+   width: 50%;
+   margin-bottom: 2rem;
+   text-align: center;
+}
+
+.singin_modal .nav-tabs {
+    border-bottom: none;
+ }
+.singin_tab {
+    padding: 0 3rem;
+}
+.singin_tab input.form-control{
+    font-size: 12px;
+    color: #8c8c8c;
+    height: 40px;
+}
+
+.singin_link{
+    text-align: center;
+}
+
+.forgot_link{
+text-align: right;
+font-size: 12px;
+}
